@@ -1,0 +1,235 @@
+body{
+    background-color: grey;
+}
+
+#container{
+        display: flex;
+        height: 100vh; 
+        position: absolute;
+       
+        
+}
+
+
+
+#container img[alt= "mobil"] {
+    max-width: 100%; 
+    height: 1000px;
+    z-index: 2;
+}
+#background {
+    position: absolute; 
+    top: 45%; 
+    left: 50%;
+    width: 67%; 
+    height: 85%; 
+    background-color: rgb(9, 12, 13); 
+    z-index: 1; 
+    transform: translate(-50%, -50%); 
+    border-radius: 13% 13% 13% 13%;
+}
+/*--------------VRCH----------------*/
+#vrchleft, #vrchright {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    margin-left: 400px;
+    z-index: 2;
+   
+}
+#vrchleft{
+    margin-left: 140px;
+    margin-top: 50px;
+}
+
+#vrchright{
+    margin-left: 430px;
+    margin-top: 65px;
+}
+
+#vrchleft img {
+    width: 30px;
+}
+
+#vrchright img {
+    width: 30px;
+}
+#vrchleft h1{
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 520;
+}
+/*----------------------------------*/
+
+/*--------------HLAVICKY----------------*/
+#ikonaja {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 94px;
+    margin-left: 125px;
+    z-index: 2;
+}
+
+#ikonaja h2 {
+    margin-left: 15px;
+    color: white;
+    z-index: 2;
+}
+#ikonaja img[alt= "sipka"] {
+    
+    max-width: 100%; 
+    width: 10px;
+    z-index: 2;
+    margin-top: -34px;
+    margin-left: 100px;
+}
+#ikonaja img[alt= "srdce"] {
+    max-width: 100%; 
+    width: 100px;
+    z-index: 2;
+    margin-top: -34px;
+    margin-left: 312px;
+}
+#ikonaja img[alt= "hlavicka"] {
+    max-width: 100%; 
+    height: 120px;
+    width: 100px;
+    z-index: 2;
+    margin-top: 13px;
+    margin-left: -5px;
+}
+#ikony {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 160px;
+    margin-left: 330px;
+    z-index: 2;
+}
+
+
+#klik img[alt= "vlado"] {
+    cursor: pointer;
+    height: 120px;
+    z-index: 12;
+    margin-top: 155px;
+    margin-left: -434px;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+#klik img[alt="vlado"]:hover {
+    transform: scale(1.05); 
+}
+#ikony img[alt= "ikony"] {
+    max-width: 100%; 
+    height: 130px;
+    z-index: 10;
+    margin-top: -12px;
+    margin-left: 2px;
+}
+/*---------------------------------------*/
+
+/*--------------POST----------------*/
+#post {
+   
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-left: 125px;
+    z-index: 2;
+}
+
+#post img[alt= "hlava1"] {
+    max-width: 100%; 
+    height: 55px;
+    width: 190px;
+    z-index: 2;
+    margin-top: 140px;
+}
+
+#post img[alt= "sledovat"] {
+    max-width: 100%; 
+    height: 52px;
+    width: 140px;
+    z-index: 2;
+    margin-top: 142px;
+    margin-left: 85px;
+}
+#post img[alt= "morca"] {
+    max-width: 100%; 
+    height: 452px;
+    width: 420px;
+    z-index: 2;
+    margin-top: 195px;
+    margin-left: -419.5px;
+}
+#popis {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-left: 125px;
+    z-index: 2;
+}
+#popis img[alt= "koment"] {
+    max-width: 100%; 
+    height: 35px;
+    width: 120px;
+    z-index: 2;
+    margin-top: 652px;
+    margin-left: 5px;
+}
+#popis img[alt= "popis"] {
+    max-width: 100%; 
+    height: 45px;
+    width: 260px;
+    z-index: 2;
+    margin-top: 685px;
+    margin-left: -120px;
+}
+#popis img[alt= "ulozit"] {
+    max-width: 100%; 
+    height: 42px;
+    width: 40px;
+    z-index: 2;
+    margin-top: 650px;
+    margin-left: 95px;
+}
+
+#spodok {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-left: 125px;
+    z-index: 2;
+}
+
+#spodok img[alt= "doleik"] {
+    max-width: 100%; 
+    height: 68px;
+    width: 430px;
+    z-index: 3;
+    margin-top: 730px;
+    margin-left: -10px;
+}
+#spodok1 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-left: 125px;
+    z-index: 2;
+}
+#spodok1 img[alt= "lista"] {
+    max-width: 100%; 
+    height: 25px;
+    width: 170px;
+    z-index: 3;
+    margin-top: 780px;
+    margin-left: 125px;
+}
